@@ -1,0 +1,218 @@
+/*
+	Theme Name: Twitterize
+	URI: http://linesh.com/
+	Description:  Feature-packed theme with a solid design, built-in widgets and a intuitive theme settings interface... Designed by <a href="http://linesh.com/">Linesh Jose</a>.
+	Version: 11.1
+	Author: Linesh Jose 
+	Author URI: http://linesh.com/
+	roTags: light, white,two-columns, Flexible-width, right-sidebar, left-sidebar, theme-options, threaded-comments, translation-ready, custom-header
+	Both the design and code are released under GPL. http://www.opensource.org/licenses/gpl-license.php
+*/
+
+	/* ie */
+	*html #posts  .posted {width:480px;}
+	*html #sidebar ul li a ,*html #sidebar ul li ,*html #sidebar ul li ul {margin:0;padding:0;}
+	
+	/* main*/
+	body {margin: 0;	padding: 0;	font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;	font-size: 12px;color: #000; background:#c0deed url('./images/bg-clouds.png') repeat-x left top;}
+	div#wrapper {margin: 0px;	padding: 0px;}
+	div#container{width: 763px;position: relative;margin-top: 0px;margin-left: auto;margin-right: auto;text-align: left;}
+	
+	/* common*/
+	h1, h2, h3, h4, h5, h6,p,form {margin: 0;	padding: 0;	font-weight: normal;border:none;}
+	dl {	margin: 0 0 24px 0;}
+	dt {	font-weight: bold;}
+	dd {	margin-bottom: 18px;}
+	strong {font-weight: bold;}
+	cite,em,i {font-style: italic;}
+	big {	font-size: 131.25%;}
+	ins {	background: #ffc;	text-decoration: none;}
+	pre {color: #222;font-family:Courier New, Courier, monospace;line-height: 18px;margin-bottom: 18px;	padding: 1.5em;-webkit-text-size-adjust: 140%;}
+	abbr,acronym {border-bottom: 1px dotted #666;	cursor: help;}
+	sup,sub {	height: 0;	line-height: 1;	position: relative;	vertical-align: baseline;}
+	sup {bottom: 1ex;}
+	sub {	top: .5ex;}
+	abbr {border-bottom:1px dashed #006600;}
+	blockquote{margin:0px;background: #fafafa; font-family:Courier New, Courier, monospace;quotes: none;font-style: italic;padding: 10px;}
+	blockquote:before, blockquote:after {content: '';content: none;}
+	blockquote cite,blockquote em,blockquote i {font-style: normal;}
+	del {	text-decoration: line-through;}
+	hr {background-color: #e7e7e7;border: 0;clear: both;	height: 1px;	margin-bottom: 18px;}
+	code{color:#000;margin:0;padding:0;-webkit-text-size-adjust: 160%;}
+	a {text-decoration: none;color: #5882C4;}
+	a:hover {text-decoration: underline;}
+	a img{border:none;}
+	ul ,ol,dl {list-style:none;}
+	
+	.list li {margin-bottom: 6px;}
+	.alignright {float: right;}
+	.alignleft {float: left;}
+	.clearboth{clear:both;}
+	.righttext{text-align:right;}
+	.lefttext{text-align:left;}
+	.centertext{text-align:center;}
+	
+	
+	/* button*/
+		input[type=submit],input[type=button],input[type=reset],.button{background:#fff url('./images/nav_button.jpg') left bottom repeat-x;padding:5px 10px 5px 10px ;border:1px solid #ccc;color:#555;font-weight:bold;font-size:12px;text-transform: capitalize;text-decoration:none;}
+		input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover,.button:hover{border:1px solid #bbb;color:#111;cursor: pointer;}
+
+	/* textbox & textarea */
+	input[type=text],input[type=password],textarea, select,.textbox{border:1px solid #ddd;margin:0;font-size:14px;padding:5px;}
+
+
+	/* --- Full round 5px --*/
+	#posts  .post_data  fieldset,#footer,#contact table,#comments  table, #tags ,#comments .commentlist li ,#posts  .wp-caption ,#navigation,
+	#posts  .post_data  blockquote,input[type=submit],input[type=button],input[type=reset],.button,#menu ul {
+	css-border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5p;
+	}
+	
+	/* round left */
+	#content ,.searchbox{
+	-moz-border-radius: 5px 0  0 5px;
+	border-radius: 5px 0  0 5px;
+	-webkit-border-radius: 5px 0  0 5px;
+	}
+
+	/* round right */
+	#sidebar, #sidebar .searchbutton{
+	-moz-border-radius: 0 5px  5px 0;
+	border-radius: 0 5px  5px 0;
+	-webkit-border-radius: 0 5px  5px 0;
+	}
+	
+	
+	/* Header */
+	#header {margin: 0 auto;	padding: 0px;}
+
+	/* Logo */
+	#logo {	float: left;margin: 0; color: #000000; border:none; width:250px;min-height:35px;}
+	#logo img{border:none;margin:7px 0 0px 0;}
+	#logo  .title, #logo p {color:#FFF;}
+	#logo .title{letter-spacing: -1px;font-size: 30px;font-family:georgia;text-transform:lowercase;margin-top:5px;font-weight:bold;}
+	#logo .title a {color: #FFF;}
+	#logo p {margin: -28px 0px 5px 5px;	padding: 26px 0 0 2px;color: #555;} 
+	#logo a {border: none;	background: none;text-decoration: none;	color: #C5E8FF;}
+
+	/* Menu */
+	#menu ul { background: #fff; float: right; padding: 0 5px 0 5px; margin:10px 0 0 0;}
+	#menu li { float: left; margin: 0; padding: 0; }
+	#menu a {padding: 8px;  display: block;font-size: 12px; }
+	#menu a:hover {text-decoration: underline; }
+	#menu li ul { background:url('./images/gray.png'); margin: 0 0 0 -75px; padding: 4px ; left: -9999em; overflow: visible; position: absolute; width: 13em; }
+	#menu li li { width: 100%; padding: 0; }
+	#menu li li a { padding: 3px ;}
+	#menu li li:hover { background: none;}
+	#menu ul:hover ul a:hover { background: #fff; text-decoration: none; }
+	#menu li:hover ul,	#menu li li:hover ul,#menu li li li:hover ul,#menu li li li li:hover ul,#menu li.sfhover ul,	#menu li li.sfhover ul,
+	#menu li li li.sfhover ul,	#menu li li li li.sfhover ul	{ left: auto; }
+	
+	
+	
+	#page{width:763px;max-width:763px;padding-top:10px;background:url('./images/up-arrow.gif') left top no-repeat;background-position:22px 0px;}
+	/* Content */
+
+	#content {width:564px;vertical-align:top;background:#fff;padding:15px 5px 15px 15px ;border-right:1px solid #c0deed;text-align:center;}
+	#content h1{border-bottom:1px solid #eee;margin:0px;font-weight:bold;font-size:16px;color: #385230;width:532px;text-align:left;}
+	
+	/* Posts */
+	#posts {	margin: 0px;border-bottom:1px solid #eee;padding:6px 0px 6px 0px ;width:532px;}
+	.posts:hover{background:#fbfbfb;}
+	#posts  .avatar{float:left;width:35px; height:35px;margin-right:5px;background:#ccc;}
+	#posts  .posted {float:left; width:490px;text-align:left;}
+	#posts  .posted  .author a {float:left;color:#5882C4; font-weight:bold; margin-right:5px;text-decoration:none;font-size: 12px;}
+	#posts  .posted  .author a:hover {color:#E16D33;text-decoration:underline;}
+	#posts  .posted  .date{float:left;margin:0;padding:0px;color:#999;font-size:11px;}
+	#posts  .posted  ul{float:right;list-style:none;margin:0;}
+	#posts  .posted  ul li {display:inline;}
+	#posts  .posted  ul li a{text-decoration:none;font-weight:bold;}
+	#posts  .posted  ul .comment a{background:url('./images/comment.gif') left center no-repeat;padding:0 0px 0 15px;}
+	#posts  .posted  ul .comment {padding-left:2px;padding-right:5px;}
+	#posts  .posted  ul .edit{border-right:1px solid #ddd;padding-right:5px;}
+	#posts  .posted   h2 a{ color:#555;font-weight:bold;float:left;font-size:13px;margin:4px 10px 0 0;padding:0;text-align:left;}
+	#posts  .posted  p {clear:both; margin:0;padding:0;color:#666;text-align:left;}
+	
+	#posts  .post_data {margin:0px;padding-top:5px;font-size:12px;line-height:18px;color:#222;text-align:justify;}
+	#posts  .post_data  h1,#posts  .post_data  h2,#posts  .post_data  h3,#posts  .post_data  h4,#posts  .post_data  h5,#posts  .post_data  h6{font-size:12px;border:none;margin-bottom:2px;}
+	#posts  .post_data  h1{font-size:25px;}
+	#posts  .post_data  h2{font-size:18px;}
+	#posts  .post_data  h3{font-size:16px;}
+	#posts  .post_data  h4{font-size:15px;}
+	#posts  .post_data  h5{font-size:13px;}
+	#posts  .post_data  ul {list-style: square;margin: 0 0 18px 5px;}
+	#posts  .post_data  ol {list-style: decimal;	margin: 0 0 18px 5px;}
+	#posts  .post_data  ol ol {list-style: upper-alpha;}
+	#posts  .post_data  ol ol ol {list-style: lower-roman;}
+	#posts  .post_data  ol ol ol ol {list-style: lower-alpha;}
+	#posts  .post_data  ul ul,ol ol,ul ol,ol ul {margin-bottom: 0;}
+	#posts  .post_data  fieldset{border:1px solid #ccc;}	
+	#posts  .post_data  fieldset legend{font-size:13px;font-weight:bold;}
+	#posts  .post_data  table{width:100%;}
+	#posts  .post_data  table th{background:#f1f1f1;padding:5px;}
+	#posts  .post_data  table td{border-bottom:#f1f1f1 1px solid;padding:5px;}
+	#posts  .post_data p{margin-bottom:10px;}
+	#posts  .post_data  .thumb img{background:#ccc; margin:0px 8px 8px 0px;padding:2px;}
+	#posts  .wp-caption {background:#f9f9f9; border:1px solid #ddd;padding:8px;}
+	#posts  .wp-caption p{margin:1px;text-align:center;}
+	
+	
+	#tags{text-align:left;padding:6px;background:#f5f5f5 url('./images/tags.png') left center no-repeat;background-position:5px;padding-left:22px;color:#ccc;}
+	#tags b{color:#555;}
+	#navigation{background:#F8F8F8;padding:8px;margin-bottom:10px;}
+	#navigation  strong{float:left;margin-right:5px;}
+	#navigation   a{cursor: pointer; text-decoration:none}
+	
+	
+	
+	/* comments */
+	#comments,#contact{ padding:6px 0px 0px 0px;border:none; margin:20px 0 20px 0 ;width:518px; text-align:left}
+	#comments legend,#contact legend{color:#333; font-size:15px; font-weight:bold;border-bottom:1px solid #5882C4;padding:0px;}
+	#comments .commentlist{ text-align:left;list-style:none;margin:0;padding:0;}
+	#comments .commentlist li {padding:0px; margin:0;border-bottom:1px solid #EEE;padding:6px 0px 6px 0px ; }
+	#comments .commentlist li img{float:left; height:32px; width:32px; padding:0px; margin:0px 5px 0px 0px ; }
+	#comments .commentlist li .comment {padding-left:40px;}
+	#comments .commentlist li .comment .info {padding:0px;margin-bottom:5px;}
+	#comments .commentlist li .comment .info  small{font-size:11px;color:#999;font-size:11px;}
+	#comments .commentlist li .comment .text{font-size:12px;text-align:justify;}
+	#comments .commentlist li  cite {font-size:13px; font-style:normal; color:#000; font-weight:bold; margin:0;padding:0;}
+	#comments .commentlist li  cite  a {color:#5882C4; text-decoration:none;}
+	#comments .commentlist li  cite  a:hover{color:#E16D33;text-decoration:underline;}
+	#comments .commentlist li em{color:#000;}
+	#comments  table,#contact table {background:#F5f5f5;width:518px;}
+	#comments td,#contact td{text-align:left;}
+	#comments .textbox , #contact .textbox{width:150px;margin-right:5px;}
+	#comments textarea,#contact .texarea{min-width:505px;max-width:505px;height:150px;}
+	#comments  label, #contact label{font-weight:bold;}
+	#comments  span,#contact span{color:red;}
+	#comments small,#contact small{font-size:11px;}
+
+	/* Sidebar */
+	#sidebar{width:198px;max-width:198px;color:#787878;text-align:center; vertical-align:top;background:#fafafa;padding:10px;line-height:1.2;}
+	#sidebar h2,#sidebar h2 a{font-size:13px; border-bottom:1px solid #d9a979;color:#000;font-weight:bold;text-decoration:none;text-align:left;} 
+	#sidebar h2 a:hover{text-decoration:none;} 
+	#sidebar ul , #sidebar div {margin:3px 0 20px 0;  list-style:none; padding:0px;width: 99%;text-align:left;}
+	#sidebar select {margin:3px 0 20px 0; }
+	#sidebar ul li{margin:0px;margin-bottom:4px;}
+	#sidebar ul li a,#sidebar a{color:#787878;text-decoration:none;font-size:12px;}
+	#sidebar ul li a{display:block;padding:3px;margin-bottom:0px;}
+	#sidebar ul li a:hover{color:#000;background:#fff;}
+	#sidebar a:hover{color:#000;}
+	#sidebar ul li ul{margin:0px;list-style:none;padding:0px 10px 0px 10px;}
+	#sidebar ul li ul li  {margin:0;padding:0;margin-bottom:3px;}
+	#sidebar ul li ul li a{color:#0099CC;margin-bottom:3px;}
+	#sidebar .textbox{margin:0;width:125px;padding:4px;font-size:12px;}
+	#sidebar .searchbutton{padding:3px 5px 3px 5px ;border-left:none;}
+	#sidebar .social {text-align:center;margin-bottom:10px;}
+	#sidebar .social .img{margin-right:3px;}
+
+	/* Calendar */
+	#calendar_wrap {padding: 0px;color:#000;margin-bottom:10px;}
+	#wp-calendar {width: 100%;background:#f9f9f9;}
+	#wp-calendartbody td {text-align: center;}
+	#wp-calendar #next {text-align: right;}
+
+	/* Footer */
+	#footer {background: #fff;font-size: 12px;margin:20px 0 20px 0;padding:10px;text-align:center;}	
