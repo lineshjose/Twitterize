@@ -13,7 +13,7 @@ OR
 1. Download and extract "**twitterize.zip**" file, upload the "christmas" folder to '/wp-content/themes/' directory in your web server.
 2. Log in to the WordPress Administration Dashboard
 3. Select the 'Themes' sub-menu from 'Appearance' menu
-4. Select the 'Christmas' theme from the available list of themes to preview
+4. Select the 'Twitterize' theme from the available list of themes to preview
 5. Activate the theme.
 
 OR
