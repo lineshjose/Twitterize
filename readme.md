@@ -1,5 +1,5 @@
 # Twitterize
-A free Twitter like WordPress theme.
+A Twitter like free WordPress theme.
 
 ![beautiful screenshot](./screenshot.png)
 
