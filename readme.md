@@ -1,12 +1,10 @@
 # Twitterize
-====================================
 A free Twitter like WordPress theme.
 
 ![beautiful screenshot](./screenshot.png)
 
 
 ## Installation:
-------------------------------------
 1. Download "**twitterize.zip**" file and upload it into WordPress using "Add New" under themes section in WP admin. 
 2. Activate the theme.
 
