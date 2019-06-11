@@ -22,7 +22,7 @@ Watch this video: https://youtu.be/4-65ohSj55c
 	
 ## Please help me, I'm stuck!
 ------------------------------------
-We all know people need help with editing from time to time, which is why I offer free help in numerus way's. If you  need support please post  herer http://linesh.com/forums/forum/themes/twitterize/
+We all know people need help with editing from time to time, which is why I offer free help in numerus way's. If you  need support please post  herer https://linesh.com/forums/forum/themes/twitterize/
 	
 
 ## License
